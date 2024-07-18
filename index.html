@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="age_calculator">
+        <h1>AGE Calculator</h1>
+
+        <table>
+            <tr>
+                <td>
+                    <p class="head" >Date</p>
+                </td>
+                <td><input class="input" id="userDate" type="text" placeholder="25"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="head">Month</p>
+                </td>
+                <td><input class="input" id="userMonth" type="text" placeholder="apr"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="head">Year</p>
+                </td>
+                <td><input class="input" id="userYear" type="text" placeholder="2003"></td>
+            </tr>
+        </table>
+
+        <button onclick="userDOB()">Calculate</button>
+<hr>
+        <div class="age">
+            <p class="hd">Your Age is</p>
+            <p class="opt"><span id="ageYears">18</span> Years <span id="ageMonths">10</span> Months <span id="ageDays">26</span> Days</p>
+        </div>
+        <div class="dob">
+            <p class="hd">Your Date of Birth is</p>
+            <p class="opt"><span id="dobDayOfWeek">Tuesday</span>, <span id="dobMonth">July</span> <span id="dobDate">5</span>, <span id="dobYear">2005</span></p>
+        </div>
+<hr>
+        <h2>You Already Lived</h2>
+<hr>
+        <table>
+       <div class="box">   
+            <tr>
+                <td class="thd">In Years</td>
+                <td class="thd"><span id="livedYears" >18</span> Years</td>
+            </tr>
+        </div>
+        <div class="box">    
+        <tr>
+                <td class="thd">In Months</td>
+                <td class="thd"><span id="livedMonths" >226</span> Months</td>
+            </tr>
+        </div>
+            <div class="box"> 
+            <tr>
+                <td class="thd">In Weeks</td>
+                <td class="thd"><span id="livedWeeks" >986</span> Weeks</td>
+            </tr></div>
+        <div class="box">
+            <tr>
+                <td class="thd">In Days</td>
+                <td class="thd"><span id="livedDays" >6905</span> Days</td>
+            </tr></div>
+<div class="box">
+            <tr>
+                <td class="thd">In Hours</td>
+                <td class="thd"><span id="livedHours" >165734</span> Hours</td>
+            </tr></div>
+        </table>
+    <hr>
+    <div class="footer">
+        <p>Develop by: M.Faizan</p>
+    </div>
+    
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

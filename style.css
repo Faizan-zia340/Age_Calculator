@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    font-family: "General Sans";
+    align-content: center;
+    background-color: #727473a4;
+    background-image: radial-gradient(circle 100px at center, #95e7c5 0%,  #95e7c5 47%,  #95e7c5 100%);
+}
+
+.age_calculator {
+    background-color: #bbb8b1ec;
+    width: 515px;
+    border-radius: 30px;
+    height: auto;
+    padding: 0.75em .50em;
+    margin: 0.5em auto;
+    border: 1px solid #2020204b;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+        rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.7em;
+    padding: 0.5em;
+    color: rgb(61, 58, 58);
+
+}
+
+.input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 0.6em .8em;
+    margin: 2px 0px;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease-in-out;
+}
+
+.input:focus {
+    transform: scale(1.025);
+}
+
+.head {
+    font-size: 1em;
+    font-weight: 600;
+    padding: 3px 10px;
+    text-transform: uppercase;
+}
+
+button {
+    margin: 1.2em auto;
+    padding: 1em 1.5em;
+    background-color: transparent;
+    color: #080808;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-width: 3px;
+    border: 3px solid #0a0909;
+    border-radius: 10px;
+    transition: all 0.3s;
+
+}
+
+button:hover {
+    transform: translateX(-5px);
+    color: #fefae0;
+    background-color: #161515;
+}
+
+button::after {
+    transform: translateX(0);
+}
+
+.hd {
+    padding: 0.25em 1em;
+}
+
+.opt {
+    text-align: center;
+    padding: 0.25em 1em;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #050f09;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    padding: 0.5em 1.25em;
+}
+
+.thd {
+    padding: 0.25em 0.50em;
+}
+
+.footer {
+    text-align: center;
+    margin: 0.25em;
+    font-size: 1.2em;
+}
+
+span {
+    font-size: 1.1em;
+    font-weight: 600;
+}
